@@ -16,20 +16,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 
 
-.wrapper {}
-
 .container {
     max-width: 1168px;
     margin: 0px auto;
 }
 
 .first-screen {
+    font-family: 'Anton', sans-serif;
     background: url(img/header-bg.jpg) no-repeat center ;
     height: 900px;
-}
-
-.header {
-    font-family: 'Anton', sans-serif;
 }
 
 .header__row {
@@ -38,7 +33,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     padding-top: 57px;
     margin-bottom: 216px;
 }
-
 
 .header__logo {
     margin-right: 69px;
@@ -75,7 +69,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 
 .offer p {
-    font-family: 'Anton';
     font-size: 30px;
     line-height: 44px;
     letter-spacing: 0.1em;
@@ -84,7 +77,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 
 .offer h1 {
-    font-family: 'Anton';
     font-size: 100px;
     line-height: 147px;
     text-transform: uppercase;
