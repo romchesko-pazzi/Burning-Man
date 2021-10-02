@@ -50,6 +50,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     line-height: 21px;
 }
 
+.header__navigation a:hover {
+    color: rgb(255, 208, 0);
+    transition: 0.9s;
+}
+
 .header__navigation li:first-child {
     margin-left: 0px;
 }
@@ -64,9 +69,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     letter-spacing: 1.7px;
 }
 
+.header__phone a:hover{
+    color: rgb(255, 208, 0);
+    transition: 0.7s;
+}
+
 .header__phone {
     margin-left: auto;
 }
+
 
 .offer p {
     font-size: 30px;
@@ -80,5 +91,82 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     font-size: 100px;
     line-height: 147px;
     text-transform: uppercase;
-    color: white
+    color: white;
+    margin-bottom: 19px;
+    
+}
+
+.button {
+    border: solid 1.5px white;
+    padding: 18px 23px;
+    display: block;
+    text-align: center;
+    max-width: 238px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1.7px;
+}
+
+.button:hover {
+    background-color:white;
+    color: black;
+    transition: 0.6s;
+}
+
+
+.about {
+    padding: 113px 0px;
+}
+.about__mtitle {
+    margin-bottom: 53px;
+    font-family: 'Anton';
+    font-size: 50px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: black;  
+}
+
+.about__row {
+    display: flex;
+    margin: 0px -18px;
+    margin-bottom: 67px;
+}
+.about__block {
+    padding: 0px 18px;
+}
+
+.title {
+    font-family: 'Anton';
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.about__text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.about__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer {
+    font-family: 'Open Sans';
+    padding-bottom: 80px;
+}
+
+.footer p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 55px;
+}
+
+.footer__row {
+    display: flex;
 }
