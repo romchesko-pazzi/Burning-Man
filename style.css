@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     letter-spacing: 1.7px;
 }
 
-.header__phone a:hover{
+.header__phone a:hover {
     color: rgb(255, 208, 0);
     transition: 0.7s;
 }
@@ -132,6 +132,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     margin: 0px -18px;
     margin-bottom: 67px;
 }
+
 .about__block {
     padding: 0px 18px;
 }
